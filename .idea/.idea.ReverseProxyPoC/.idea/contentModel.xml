@@ -2,23 +2,33 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_ReverseProxyPoC.1478734903.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_ReverseProxyPoC.1111206585.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="ReverseProxyPoc" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
+        <e p="Attributes" t="Include">
+          <e p="ProxyRoute.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Clients" t="Include">
+          <e p="Contracts" t="Include">
+            <e p="IHttpClientWrapper.cs" t="Include" />
+            <e p="IHttpProxyClient.cs" t="Include" />
+          </e>
+          <e p="HttpClientWrapper.cs" t="Include" />
+          <e p="RestfulApiProxyClient.cs" t="Include" />
+        </e>
+        <e p="Constants" t="Include">
+          <e p="Config.cs" t="Include" />
+        </e>
         <e p="Controllers" t="Include">
-          <e p="ProxyController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="DemoController.cs" t="Include" />
         </e>
-        <e p="Extensions" t="Include">
-          <e p="IApplicationBuilderExtensions.cs" t="Include" />
-        </e>
-        <e p="Middleware" t="Include">
-          <e p="ProxyMiddleware.cs" t="Include" />
+        <e p="Filters" t="Include">
+          <e p="ProxyFilter.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -33,7 +43,6 @@
         </e>
         <e p="ReverseProxyPoC.csproj" t="IncludeRecursive" />
         <e p="Startup.cs" t="Include" />
-        <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="ReverseProxyPoC.sln" t="IncludeFlat" />
     </e>
